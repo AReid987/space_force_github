@@ -19,3 +19,7 @@ Deployed on the free tier, so it will take a minute to load.
 4. run yarn install --check-files
 
 5. run rails s
+
+# Note
+
+There is a script to automate killing of ports in use. In the terminal run `ruby rails_server_killer.rb`

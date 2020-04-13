@@ -38,8 +38,9 @@ gem 'httparty'
 
 gem 'bcrypt'
 
-gem 'omniauth-auth0'
-
+gem 'irbtools'
+gem 'hirb'
+gem 'rainbow'
 gem 'bootstrap'
 
 group :development, :test do
