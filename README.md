@@ -1,24 +1,21 @@
-# README
+# Space For
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a work in progress that will be a dashboard for SpaceX launches.
 
-Things you may want to cover:
+This app is deployed on Heroku and can be accessed here :
 
-* Ruby version
+https://enigmatic-scrubland-49419.herokuapp.com/
 
-* System dependencies
+Deployed on the free tier, so it will take a minute to load.
 
-* Configuration
+# Installation
 
-* Database creation
+1. git clone <repo-link.git>
 
-* Database initialization
+2. cd into space_force_github
 
-* How to run the test suite
+3. run bundle install
 
-* Services (job queues, cache servers, search engines, etc.)
+4. run yarn install --check-files
 
-* Deployment instructions
-
-* ...
+5. run rails s
