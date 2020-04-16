@@ -42,7 +42,6 @@ group :production do
 
 
   gem 'bootstrap'
-  gem 'figaro'
 
   gem 'omniauth'
   gem 'omniauth-google-oauth2'
@@ -61,11 +60,9 @@ group :development, :test do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
 
-  gem 'irbtools'
   gem 'hirb'
   gem 'rainbow'
   gem 'omniauth-google-oauth2'
-  gem 'figaro'
 
 end
 
