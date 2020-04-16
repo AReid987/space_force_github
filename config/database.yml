@@ -80,6 +80,9 @@ test:
 #
 production:
   <<: *default
+  adapter: postgresql
   database: space_force_production
+  pool: 5
+  timeout: 5000
   username: space_force
   password: <%= ENV['SPACE_FORCE_DATABASE_PASSWORD'] %>
