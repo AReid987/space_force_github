@@ -45,7 +45,9 @@ group :production do
 
 
   gem 'omniauth-google-oauth2'
-end 
+
+  
+end
 
 group :development, :test do
   gem 'pry'
