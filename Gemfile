@@ -65,6 +65,7 @@ group :development, :test do
   gem 'hirb'
   gem 'rainbow'
   gem 'omniauth-google-oauth2'
+  gem 'figaro'
 
 end
 
