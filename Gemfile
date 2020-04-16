@@ -42,15 +42,15 @@ group :production do
 
 
   gem 'bootstrap'
+  gem 'figaro'
 
-
+  gem 'omniauth'
   gem 'omniauth-google-oauth2'
 
-  
 end
 
 group :development, :test do
-  gem 'pry'
+    gem 'pry'
 
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
@@ -64,6 +64,8 @@ group :development, :test do
   gem 'irbtools'
   gem 'hirb'
   gem 'rainbow'
+  gem 'omniauth-google-oauth2'
+
 end
 
 group :test do

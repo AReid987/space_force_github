@@ -31,3 +31,6 @@ yarn-debug.log*
 .yarn-integrity
 
 ./config/initializers/hirb_starter.rb
+
+# Ignore application configuration
+/config/application.yml
