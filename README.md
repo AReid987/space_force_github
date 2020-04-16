@@ -21,6 +21,5 @@ Deployed on the free tier, so it will take a minute to load.
 5. run rails s
 
 # Note
-Test
 
 There is a script to automate killing of ports in use. In the terminal run `ruby rails_server_killer.rb`
